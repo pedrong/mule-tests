@@ -151,8 +151,14 @@
           <repository>
             <id>Fanatics</id>
             <name>Fanatics</name>
-            <url>http://192.168.56.101/</url>
+            <url>http://192.168.56.101/repository/internal</url>
             <layout>default</layout>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
         </repository>
     </repositories>
     <pluginRepositories>
