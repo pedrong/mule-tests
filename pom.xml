@@ -151,7 +151,7 @@
           <repository>
             <id>Fanatics</id>
             <name>Fanatics</name>
-            <url>http://192.168.56.101/repository/internal</url>
+            <url>http://192.168.56.101:8081/nexus/content/repositories/releases/</url>
             <layout>default</layout>
 			<releases>
 				<enabled>true</enabled>
@@ -166,7 +166,7 @@
             <id>mulesoft-release</id>
             <name>mulesoft release repository</name>
             <layout>default</layout>
-            <url>http://repository.mulesoft.org/releases/</url>
+            <url>http://192.168.56.101:8081/nexus/content/repositories/releases/</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
